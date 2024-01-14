@@ -1,0 +1,87 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.btn{
+    background-color: #ffa500;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #ffa500;
+}
+
+#menu li a{
+    list-style: none;
+    color: #fff;
+}
+
+.titles {
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+
+.carousel-item img{
+    height: 600px;
+}
+
+#sobre-a-loja {
+    background-color: #212529;
+    color: #fff;
+}
+
+#sobre-a-loja p {
+    text-align: justify;
+}
+
+#sobre-a-loja h2{
+    text-align: center;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+#mangas-em-destaque {
+    background-color: #ffa500;
+}
+
+#entre-em-contato {
+    background-color: #212529;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ffa500;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #card-manga {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #fachada {
+        height: 100%;
+    }
+}
